@@ -1,0 +1,335 @@
+{
+  "personal": {
+    "name": "Marco Poggi",
+    "title": {
+      "en": "Full Stack Developer",
+      "es": "Desarrollador Full Stack"
+    },
+    "description": {
+      "en": "Ruby on Rails specialist with 3+ years of experience building robust backend systems and full-stack applications for international clients.",
+      "es": "Especialista en Ruby on Rails con más de 3 años de experiencia construyendo sistemas backend robustos y aplicaciones full-stack para clientes internacionales."
+    },
+    "contact": {
+      "email": "mpoggideveloper@gmail.com",
+      "location": {
+        "en": "Buenos Aires, Argentina",
+        "es": "Buenos Aires, Argentina"
+      },
+      "timezone": "UTC-3",
+      "availability": {
+        "en": "Remote | Full-time",
+        "es": "Remoto | Tiempo Completo"
+      },
+      "linkedin": "https://linkedin.com/in/marcopoggi-dev",
+      "github": "https://github.com/marcopoggi"
+    }
+  },
+  "stats": [
+    {
+      "number": "3+",
+      "label": {
+        "en": "Years Experience",
+        "es": "Años de Experiencia"
+      }
+    },
+    {
+      "number": "8+",
+      "label": {
+        "en": "Rails Projects",
+        "es": "Proyectos Rails"
+      }
+    },
+    {
+      "number": "100%",
+      "label": {
+        "en": "Rails Focused",
+        "es": "Enfocado en Rails"
+      }
+    }
+  ],
+  "overview": {
+    "title": {
+      "en": "Professional Overview",
+      "es": "Resumen Profesional"
+    },
+    "cards": [
+      {
+        "icon": "💎",
+        "title": {
+          "en": "Rails Architecture",
+          "es": "Arquitectura Rails"
+        },
+        "description": {
+          "en": "Expert in building scalable Rails applications with clean architecture patterns, service objects, and advanced database design using PostgreSQL and Redis.",
+          "es": "Experto en construir aplicaciones Rails escalables con patrones de arquitectura limpia, objetos de servicio, y diseño avanzado de bases de datos usando PostgreSQL y Redis."
+        }
+      },
+      {
+        "icon": "🔧",
+        "title": {
+          "en": "Rails Ecosystem",
+          "es": "Ecosistema Rails"
+        },
+        "description": {
+          "en": "Deep knowledge of Rails ecosystem including Sidekiq, RSpec, Devise, and modern Rails features like Hotwire. Experienced with Rails API development and background processing.",
+          "es": "Conocimiento profundo del ecosistema Rails incluyendo Sidekiq, RSpec, Devise, y características modernas de Rails como Hotwire. Experiencia con desarrollo de APIs Rails y procesamiento en segundo plano."
+        }
+      },
+      {
+        "icon": "⚡",
+        "title": {
+          "en": "Rails Migration Expert",
+          "es": "Experto en Migración Rails"
+        },
+        "description": {
+          "en": "Specialized in migrating legacy systems to Rails and upgrading Rails versions. Successfully led multiple PHP to Rails migrations and Rails 5 to 6.1 upgrades with zero downtime.",
+          "es": "Especializado en migrar sistemas legacy a Rails y actualizar versiones de Rails. Lideré exitosamente múltiples migraciones de PHP a Rails y actualizaciones de Rails 5 a 6.1 sin tiempo de inactividad."
+        }
+      }
+    ]
+  },
+  "projects": {
+    "title": {
+      "en": "Featured Projects",
+      "es": "Proyectos Destacados"
+    },
+    "list": [
+      {
+        "name": "Patriotlink",
+        "featured": true,
+        "type": {
+          "en": "GovTech",
+          "es": "GovTech"
+        },
+        "description": {
+          "en": "US Veterans platform built with Ruby on Rails. Led Rails core migration from 5.x to 6.1 and implemented complex background job processing with Sidekiq for high-volume operations.",
+          "es": "Plataforma para veteranos de EE.UU. construida con Ruby on Rails. Lideré migración del core de Rails de 5.x a 6.1 e implementé procesamiento complejo de trabajos en segundo plano con Sidekiq."
+        },
+        "technologies": ["Ruby on Rails", "Sidekiq", "PostgreSQL", "Rails Migration"],
+        "impact": {
+          "en": "Zero downtime Rails upgrade",
+          "es": "Actualización de Rails sin tiempo de inactividad"
+        }
+      },
+      {
+        "name": "SequenceStack",
+        "featured": true,
+        "type": {
+          "en": "Workflow Automation",
+          "es": "Automatización de Flujos"
+        },
+        "description": {
+          "en": "Workflow automation platform built from scratch using Ruby on Rails API architecture. Implemented complex service objects and background processing with AI integration through Rails controllers.",
+          "es": "Plataforma de automatización de flujos construida desde cero usando arquitectura de API Ruby on Rails. Implementé objetos de servicio complejos y procesamiento en segundo plano con integración de IA a través de controladores Rails."
+        },
+        "technologies": ["Ruby on Rails", "Rails API", "Service Objects", "Background Jobs"],
+        "impact": {
+          "en": "Full Rails architecture leadership",
+          "es": "Liderazgo completo de arquitectura Rails"
+        }
+      },
+      {
+        "name": "Kuara",
+        "featured": true,
+        "type": {
+          "en": "HealthTech",
+          "es": "HealthTech"
+        },
+        "description": {
+          "en": "Medical coaching platform built with Ruby on Rails featuring polymorphic ActiveRecord associations, PostgreSQL JSONB integration, and Sidekiq for complex workflow orchestration.",
+          "es": "Plataforma de coaching médico construida con Ruby on Rails con asociaciones polimórficas de ActiveRecord, integración PostgreSQL JSONB, y Sidekiq para orquestación compleja de flujos."
+        },
+        "technologies": ["Ruby on Rails", "ActiveRecord", "PostgreSQL JSONB", "Sidekiq"],
+        "impact": {
+          "en": "Advanced Rails patterns implementation",
+          "es": "Implementación de patrones avanzados Rails"
+        }
+      },
+      {
+        "name": "IBIDS",
+        "featured": true,
+        "type": {
+          "en": "Fintech",
+          "es": "Fintech"
+        },
+        "description": {
+          "en": "Led complete migration from legacy PHP system to Ruby on Rails for Dominican Republic procurement platform. Designed new Rails architecture and mentored junior developer through Rails best practices.",
+          "es": "Lideré migración completa de sistema legacy PHP a Ruby on Rails para plataforma de adquisiciones de República Dominicana. Diseñé nueva arquitectura Rails y mentoré desarrollador junior en mejores prácticas Rails."
+        },
+        "technologies": ["Ruby on Rails", "PHP to Rails Migration", "Rails Architecture", "Rails Mentorship"],
+        "impact": {
+          "en": "Complete Rails modernization",
+          "es": "Modernización completa a Rails"
+        }
+      },
+      {
+        "name": "Homefront Group",
+        "featured": true,
+        "type": {
+          "en": "GovTech",
+          "es": "GovTech"
+        },
+        "description": {
+          "en": "High-performance microservice for veteran claim processing with OpenAI integration, Redis caching, and HubSpot/PageAI integrations for massive data imports.",
+          "es": "Microservicio de alto rendimiento para procesamiento de reclamos de veteranos con integración OpenAI, caché Redis, e integraciones HubSpot/PageAI."
+        },
+        "technologies": ["Python/Django", "OpenAI API", "Celery", "Redis"],
+        "impact": {
+          "en": "Scalable AI-powered data pipeline",
+          "es": "Pipeline de datos escalable con IA"
+        }
+      },
+      {
+        "name": "Argo Navigation",
+        "featured": true,
+        "type": {
+          "en": "Navigation",
+          "es": "Navegación"
+        },
+        "description": {
+          "en": "Assisted in major backend migration to Ruby on Rails for navigation platform, ensuring data integrity and optimizing API response times during transition.",
+          "es": "Asistí en migración importante de backend a Ruby on Rails para plataforma de navegación, asegurando integridad de datos y optimizando tiempos de respuesta."
+        },
+        "technologies": ["Ruby on Rails", "API Optimization", "Data Migration", "Performance"],
+        "impact": {
+          "en": "Smooth migration with improved metrics",
+          "es": "Migración fluida con métricas mejoradas"
+        }
+      }
+    ]
+  },
+  "skills": {
+    "title": {
+      "en": "Technical Skills",
+      "es": "Habilidades Técnicas"
+    },
+    "categories": [
+      {
+        "title": {
+          "en": "Backend Development",
+          "es": "Desarrollo Backend"
+        },
+        "skills": [
+          { "name": "Ruby on Rails", "level": "expert" },
+          { "name": "Ruby", "level": "expert" },
+          { "name": "Python/Django", "level": "advanced" },
+          { "name": "Node.js", "level": "intermediate" },
+          { "name": "REST APIs", "level": "expert" },
+          { "name": "GraphQL", "level": "advanced" }
+        ]
+      },
+      {
+        "title": {
+          "en": "Frontend Development",
+          "es": "Desarrollo Frontend"
+        },
+        "skills": [
+          { "name": "JavaScript", "level": "advanced" },
+          { "name": "React", "level": "advanced" },
+          { "name": "Hotwire/Turbo", "level": "advanced" },
+          { "name": "Stimulus", "level": "advanced" },
+          { "name": "HTML5/CSS3", "level": "advanced" },
+          { "name": "TypeScript", "level": "intermediate" }
+        ]
+      },
+      {
+        "title": {
+          "en": "Databases & Storage",
+          "es": "Bases de Datos y Almacenamiento"
+        },
+        "skills": [
+          { "name": "PostgreSQL", "level": "expert" },
+          { "name": "Redis", "level": "expert" },
+          { "name": "MySQL", "level": "advanced" },
+          { "name": "Elasticsearch", "level": "advanced" },
+          { "name": "JSONB", "level": "expert" },
+          { "name": "Database Design", "level": "expert" }
+        ]
+      },
+      {
+        "title": {
+          "en": "Rails Specialization",
+          "es": "Especialización Rails"
+        },
+        "skills": [
+          { "name": "ActiveRecord", "level": "expert" },
+          { "name": "Service Objects", "level": "expert" },
+          { "name": "Sidekiq", "level": "expert" },
+          { "name": "RSpec", "level": "expert" },
+          { "name": "Rails API", "level": "expert" },
+          { "name": "Rails Engines", "level": "advanced" }
+        ]
+      },
+      {
+        "title": {
+          "en": "DevOps & Infrastructure",
+          "es": "DevOps e Infraestructura"
+        },
+        "skills": [
+          { "name": "Docker", "level": "advanced" },
+          { "name": "AWS", "level": "intermediate" },
+          { "name": "CI/CD", "level": "advanced" },
+          { "name": "Linux", "level": "advanced" },
+          { "name": "Git", "level": "expert" },
+          { "name": "Deployment", "level": "advanced" }
+        ]
+      },
+      {
+        "title": {
+          "en": "AI & Modern Tools",
+          "es": "IA y Herramientas Modernas"
+        },
+        "skills": [
+          { "name": "OpenAI API", "level": "expert" },
+          { "name": "LLM Integration", "level": "advanced" },
+          { "name": "Prompt Engineering", "level": "expert" },
+          { "name": "AI-Assisted Development", "level": "advanced" },
+          { "name": "Claude Code", "level": "advanced" },
+          { "name": "Background Processing", "level": "expert" }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": {
+      "en": "Let's Work Together",
+      "es": "Trabajemos Juntos"
+    },
+    "description": {
+      "en": "Ready to build something amazing? I'm available for full-time remote opportunities and freelance projects. Let's discuss how I can help bring your ideas to life.",
+      "es": "¿Listo para construir algo increíble? Estoy disponible para oportunidades remotas de tiempo completo y proyectos freelance. Hablemos sobre cómo puedo ayudar a dar vida a tus ideas."
+    }
+  },
+  "navigation": {
+    "cta": {
+      "primary": {
+        "en": "Get In Touch",
+        "es": "Contactar"
+      },
+      "secondary": {
+        "en": "View Projects",
+        "es": "Ver Proyectos"
+      }
+    },
+    "contact_links": {
+      "linkedin": {
+        "en": "LinkedIn Profile",
+        "es": "Perfil LinkedIn"
+      },
+      "github": {
+        "en": "GitHub Profile",
+        "es": "Perfil GitHub"
+      }
+    },
+    "labels": {
+      "impact": {
+        "en": "Impact:",
+        "es": "Impacto:"
+      },
+      "availability": {
+        "en": "Availability:",
+        "es": "Disponibilidad:"
+      }
+    }
+  }
+}
