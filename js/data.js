@@ -1,4 +1,4 @@
-{
+window.PORTFOLIO_DATA = {
   "personal": {
     "name": "Marco Poggi",
     "title": {
@@ -498,4 +498,4 @@
       }
     }
   }
-}
+};
