@@ -2,26 +2,26 @@
   "personal": {
     "name": "Marco Poggi",
     "title": {
-      "en": "Full Stack Developer",
-      "es": "Desarrollador Full Stack"
+      "en": "AI Engineer",
+      "es": "AI Engineer"
     },
     "roles": {
       "en": [
-        "Full Stack Developer",
-        "Rails Specialist",
-        "Django + AWS Builder",
-        "AI-Assisted Engineer"
+        "AI Engineer",
+        "Agentic Workflows Builder",
+        "MCP & Tool Calling",
+        "Evals & Quality Gates"
       ],
       "es": [
-        "Desarrollador Full Stack",
-        "Especialista en Rails",
-        "Builder de Django + AWS",
-        "Ingeniero Asistido por IA"
+        "AI Engineer",
+        "Constructor de Workflows Agénticos",
+        "MCP y Tool Calling",
+        "Evals y Controles de Calidad"
       ]
     },
     "description": {
-      "en": "Full Stack Developer with 4+ years of professional experience building production systems with Ruby on Rails and Python/Django for international clients. Currently focused on backend platforms, cloud infrastructure, and AI-assisted development.",
-      "es": "Desarrollador Full Stack con más de 4 años de experiencia profesional construyendo sistemas en producción con Ruby on Rails y Python/Django para clientes internacionales. Actualmente enfocado en plataformas backend, infraestructura cloud y desarrollo asistido por IA."
+      "en": "AI Engineer with 4+ years shipping production software for international clients. I build AI agents and agentic workflows, MCP integrations and agent-ready APIs, and the evals and quality gates that keep AI-generated code reliable. Python, TypeScript, AWS — the stack is a means, not the point.",
+      "es": "AI Engineer con más de 4 años entregando software en producción para clientes internacionales. Construyo agentes de IA y workflows agénticos, integraciones MCP y APIs listas para agentes, y los evals y controles de calidad que mantienen confiable al código generado por IA. Python, TypeScript, AWS — el stack es un medio, no el fin."
     },
     "contact": {
       "email": "mpoggideveloper@gmail.com",
@@ -47,10 +47,10 @@
       }
     },
     {
-      "number": "10+",
+      "number": "20+",
       "label": {
-        "en": "Production Projects",
-        "es": "Proyectos en Producción"
+        "en": "Agent Skills Shipped",
+        "es": "Skills de Agentes Publicadas"
       }
     },
     {
@@ -68,36 +68,36 @@
     },
     "cards": [
       {
-        "icon": "backend",
+        "icon": "agent",
         "title": {
-          "en": "Backend Engineering",
-          "es": "Ingeniería Backend"
+          "en": "AI Agents & Agentic Workflows",
+          "es": "Agentes de IA y Workflows Agénticos"
         },
         "description": {
-          "en": "Production systems with Ruby on Rails and Django: relational modeling with PostgreSQL, background processing with Sidekiq and Celery, REST APIs, and performance work on complex queries.",
-          "es": "Sistemas en producción con Ruby on Rails y Django: modelado relacional con PostgreSQL, procesamiento en segundo plano con Sidekiq y Celery, APIs REST y optimización de consultas complejas."
+          "en": "Agentic workflows with Claude Code skills, subagents, and hooks; MCP integrations and tool calling; agent-ready APIs (OpenAPI) so AI agents can operate real platforms; multi-agent orchestration for parallel work.",
+          "es": "Workflows agénticos con skills, subagentes y hooks de Claude Code; integraciones MCP y tool calling; APIs listas para agentes (OpenAPI) para que operen plataformas reales; orquestación multi-agente para trabajo en paralelo."
+        }
+      },
+      {
+        "icon": "quality",
+        "title": {
+          "en": "Evals & Quality Gates",
+          "es": "Evals y Controles de Calidad"
+        },
+        "description": {
+          "en": "A green suite only says the code ran. Mutation testing, AI code review agents, and evals that compare agent skills against a baseline model — so AI-generated changes are proven, not assumed.",
+          "es": "Una suite en verde solo dice que el código corrió. Mutation testing, agentes de code review con IA y evals que comparan skills de agentes contra un modelo base — para que los cambios generados por IA estén probados, no supuestos."
         }
       },
       {
         "icon": "cloud",
         "title": {
-          "en": "Platform & Infrastructure",
-          "es": "Plataforma e Infraestructura"
+          "en": "Platforms & Infrastructure",
+          "es": "Plataformas e Infraestructura"
         },
         "description": {
-          "en": "Dockerized environments, CI/CD with GitHub Actions, and AWS (Lambda, S3, ECR, EC2). Experience shipping serverless analytics pipelines and maintaining multi-package monorepos with automated releases.",
-          "es": "Entornos dockerizados, CI/CD con GitHub Actions y AWS (Lambda, S3, ECR, EC2). Experiencia lanzando pipelines de analítica serverless y manteniendo monorepos multi-paquete con releases automatizados."
-        }
-      },
-      {
-        "icon": "ai",
-        "title": {
-          "en": "AI-Assisted Development",
-          "es": "Desarrollo Asistido por IA"
-        },
-        "description": {
-          "en": "LLM integrations with the OpenAI and Claude APIs, and a daily AI-assisted workflow: building SDKs, CLIs, and developer tooling faster without giving up code quality or test coverage.",
-          "es": "Integraciones de LLMs con las APIs de OpenAI y Claude, y un flujo de trabajo diario asistido por IA: construyendo SDKs, CLIs y herramientas para desarrolladores más rápido sin resignar calidad de código ni cobertura de tests."
+          "en": "LLM-powered backends, SDKs, and CLIs in Python and TypeScript; serverless on AWS Lambda; multi-tenant AWS with Terraform; Docker and CI/CD with automated releases.",
+          "es": "Backends con LLMs, SDKs y CLIs en Python y TypeScript; serverless en AWS Lambda; AWS multi-tenant con Terraform; Docker y CI/CD con releases automatizados."
         }
       }
     ]
@@ -110,8 +110,8 @@
     "list": [
       {
         "role": {
-          "en": "Full Stack Developer",
-          "es": "Desarrollador Full Stack"
+          "en": "AI Engineer · Full Stack Developer",
+          "es": "AI Engineer · Desarrollador Full Stack"
         },
         "company": "ITCrowd",
         "period": {
@@ -124,16 +124,20 @@
         },
         "highlights": [
           {
-            "en": "Currently building a geospatial analytics platform: a Django application that deploys and executes Python analyses as AWS Lambda functions, plus its Python SDK, CLI, and shared library ecosystem.",
-            "es": "Actualmente construyendo una plataforma de analítica geoespacial: una aplicación Django que despliega y ejecuta análisis de Python como funciones AWS Lambda, junto con su SDK de Python, CLI y ecosistema de librerías compartidas."
+            "en": "Lead developer on a US client's multi-tenant data platform (StealthMetrix): serverless Python on AWS, an SDK and CLI, and agent-ready APIs that AI agents can operate.",
+            "es": "Desarrollador líder en la plataforma de datos multi-tenant de un cliente de EE.UU. (StealthMetrix): Python serverless en AWS, un SDK y CLI, y APIs listas para que agentes de IA las operen."
           },
           {
-            "en": "Built and maintained Ruby on Rails products for US clients in health, government, and workflow automation — from greenfield architecture to legacy migrations with zero downtime.",
-            "es": "Construí y mantuve productos Ruby on Rails para clientes de EE.UU. en salud, gobierno y automatización de flujos — desde arquitectura desde cero hasta migraciones de sistemas legacy sin tiempo de inactividad."
+            "en": "Built agentic workflows for the engineering team: Claude Code skills, subagents, hooks, and MCP integrations for tickets, releases, docs, diagrams, and E2E smoke tests.",
+            "es": "Construí workflows agénticos para el equipo: skills, subagentes, hooks e integraciones MCP de Claude Code para tickets, releases, docs, diagramas y smoke tests E2E."
           },
           {
-            "en": "Optimized complex PostgreSQL queries, designed background job pipelines (Sidekiq, Celery), and integrated third-party services and LLM APIs.",
-            "es": "Optimicé consultas complejas de PostgreSQL, diseñé pipelines de trabajos en segundo plano (Sidekiq, Celery) e integré servicios de terceros y APIs de LLMs."
+            "en": "Set up evals and quality gates for AI-generated code: mutation testing, AI code review agents, and skill evals against a baseline model.",
+            "es": "Armé evals y controles de calidad para código generado por IA: mutation testing, agentes de code review y evals de skills contra un modelo base."
+          },
+          {
+            "en": "Earlier: shipped LLM-powered products and backend systems for US and LatAm clients in health, government, and fintech.",
+            "es": "Antes: entregué productos con LLMs y sistemas backend para clientes de EE.UU. y Latinoamérica en salud, gobierno y fintech."
           }
         ]
       }
@@ -146,8 +150,61 @@
     },
     "list": [
       {
-        "name": "SequenceStack",
+        "name": "StealthMetrix · ShadowLytics",
         "grade": 1,
+        "featured": true,
+        "art": "geo",
+        "type": {
+          "en": "Agent-Operable Analytics Platform",
+          "es": "Plataforma de Analítica Operable por Agentes"
+        },
+        "description": {
+          "en": "Analytics engine of a multi-tenant intelligence suite: upload a Python analysis and it is packaged, deployed, and run as an AWS Lambda over geospatial data. I lead the platform, the SDK and CLI behind every analysis, and the API + agent docs that let AI agents operate it end to end.",
+          "es": "Motor de analítica de una suite de inteligencia multi-tenant: subís un análisis en Python y se empaqueta, despliega y ejecuta como AWS Lambda sobre datos geoespaciales. Lidero la plataforma, el SDK y la CLI detrás de cada análisis, y la API + docs para agentes que permiten que la IA la opere de punta a punta."
+        },
+        "technologies": [
+          "Python",
+          "AWS Lambda",
+          "SDK + CLI",
+          "Agent APIs",
+          "Mutation Testing",
+          "Terraform"
+        ],
+        "impact": {
+          "en": "Lead developer: platform, SDK, CLI, agent access",
+          "es": "Desarrollador líder: plataforma, SDK, CLI, acceso para agentes"
+        },
+        "url": "https://stealthmetrix.com/"
+      },
+      {
+        "name": "Agent Skills Plugin",
+        "grade": 2,
+        "featured": true,
+        "art": "skills",
+        "type": {
+          "en": "Claude Code Tooling",
+          "es": "Tooling para Claude Code"
+        },
+        "description": {
+          "en": "Internal Claude Code plugin marketplace for StealthMetrix: 20+ skills that turn team rituals into one-line asks — Jira tickets, release notes, sprint review decks, system diagrams, browser smoke tests across tenants — plus a review subagent and hooks that log skill usage.",
+          "es": "Marketplace interno de plugins de Claude Code para StealthMetrix: más de 20 skills que convierten los rituales del equipo en un pedido de una línea — tickets de Jira, release notes, presentaciones de sprint review, diagramas de sistema, smoke tests en navegador por tenant — más un subagente de revisión y hooks que registran el uso."
+        },
+        "technologies": [
+          "Claude Code",
+          "Skills",
+          "Subagents",
+          "Hooks",
+          "MCP",
+          "Jira / Confluence"
+        ],
+        "impact": {
+          "en": "Team workflows encoded as reusable agent skills",
+          "es": "Flujos del equipo codificados como skills reutilizables"
+        }
+      },
+      {
+        "name": "SequenceStack",
+        "grade": 3,
         "featured": true,
         "art": "workflow",
         "type": {
@@ -155,14 +212,14 @@
           "es": "Automatización de Flujos"
         },
         "description": {
-          "en": "AI-powered workflow automation platform built from scratch on a Rails API architecture: service objects, background processing, and LLM integration through Rails controllers.",
-          "es": "Plataforma de automatización de flujos con IA construida desde cero sobre una arquitectura Rails API: objetos de servicio, procesamiento en segundo plano e integración de LLMs a través de controladores Rails."
+          "en": "AI-powered workflow automation platform built from scratch: API-first architecture, background processing, and LLM steps orchestrated inside user-defined workflows.",
+          "es": "Plataforma de automatización de flujos con IA construida desde cero: arquitectura API-first, procesamiento en segundo plano y pasos con LLMs orquestados dentro de flujos definidos por el usuario."
         },
         "technologies": [
+          "LLM Orchestration",
+          "OpenAI API",
           "Rails API",
-          "Service Objects",
-          "Background Jobs",
-          "OpenAI API"
+          "Background Jobs"
         ],
         "impact": {
           "en": "Greenfield architecture ownership",
@@ -171,17 +228,42 @@
         "url": "https://sequencestack.com"
       },
       {
-        "name": "Clavalo",
-        "grade": 2,
+        "name": "Everlast",
+        "grade": 4,
         "featured": true,
+        "art": "chat",
+        "type": {
+          "en": "HealthTech",
+          "es": "HealthTech"
+        },
+        "description": {
+          "en": "AI health coaching platform: LLM-driven coaching conversations over a flexible data model, with background workflow orchestration for scheduled check-ins.",
+          "es": "Plataforma de coaching de salud con IA: conversaciones de coaching guiadas por LLMs sobre un modelo de datos flexible, con orquestación de flujos en segundo plano para check-ins programados."
+        },
+        "technologies": [
+          "OpenAI API",
+          "PostgreSQL JSONB",
+          "Ruby on Rails",
+          "Sidekiq"
+        ],
+        "impact": {
+          "en": "LLM features in production",
+          "es": "Funcionalidades con LLMs en producción"
+        },
+        "url": "https://joineverlast.com"
+      },
+      {
+        "name": "Clavalo",
+        "grade": 5,
+        "featured": false,
         "art": "pitch",
         "type": {
           "en": "Personal Project",
           "es": "Proyecto Personal"
         },
         "description": {
-          "en": "Football predictions platform built for the 2026 World Cup: multi-tournament brackets, automatic scoring, per-tournament leaderboards, and a full admin panel. Rails 8.1 with Hotwire, deployed with Docker and Kamal.",
-          "es": "Plataforma de pronósticos de fútbol construida para el Mundial 2026: multi-torneo, puntuación automática, rankings por torneo y panel de administración completo. Rails 8.1 con Hotwire, desplegada con Docker y Kamal."
+          "en": "Football predictions platform for the 2026 World Cup, built end to end with an AI-first workflow: multi-tournament brackets, automatic scoring, leaderboards, and an admin panel. Rails 8 + Hotwire, deployed with Docker and Kamal.",
+          "es": "Plataforma de pronósticos de fútbol para el Mundial 2026, construida de punta a punta con un flujo AI-first: multi-torneo, puntuación automática, rankings y panel de administración. Rails 8 + Hotwire, desplegada con Docker y Kamal."
         },
         "technologies": [
           "Rails 8",
@@ -197,60 +279,8 @@
         "url": "https://clavalo.com.ar"
       },
       {
-        "name": "ShadowLytics Ecosystem",
-        "grade": 3,
-        "featured": true,
-        "art": "geo",
-        "type": {
-          "en": "Geospatial Analytics",
-          "es": "Analítica Geoespacial"
-        },
-        "description": {
-          "en": "End-to-end environment for running Python analytics as AWS Lambda functions over geospatial data: the Django platform, the Python SDK behind every analysis, a CLI, and a shared-library monorepo with automated releases.",
-          "es": "Entorno de punta a punta para ejecutar analítica en Python como funciones AWS Lambda sobre datos geoespaciales: la plataforma Django, el SDK de Python detrás de cada análisis, una CLI y un monorepo de librerías compartidas con releases automatizados."
-        },
-        "technologies": [
-          "Django",
-          "AWS Lambda",
-          "Python SDK",
-          "DuckDB",
-          "Celery",
-          "GitHub Actions"
-        ],
-        "impact": {
-          "en": "One environment: platform, SDK, CLI, and shared libraries",
-          "es": "Un solo entorno: plataforma, SDK, CLI y librerías compartidas"
-        },
-        "url": "https://stealthmetrix.com/"
-      },
-      {
-        "name": "Everlast",
-        "grade": 4,
-        "featured": false,
-        "art": "chat",
-        "type": {
-          "en": "HealthTech",
-          "es": "HealthTech"
-        },
-        "description": {
-          "en": "AI-powered health coaching platform built with Ruby on Rails: polymorphic ActiveRecord associations, PostgreSQL JSONB, and Sidekiq for complex workflow orchestration.",
-          "es": "Plataforma de coaching de salud con IA construida con Ruby on Rails: asociaciones polimórficas de ActiveRecord, PostgreSQL JSONB y Sidekiq para orquestación compleja de flujos."
-        },
-        "technologies": [
-          "Ruby on Rails",
-          "PostgreSQL JSONB",
-          "Sidekiq",
-          "OpenAI API"
-        ],
-        "impact": {
-          "en": "Advanced Rails patterns in production",
-          "es": "Patrones avanzados de Rails en producción"
-        },
-        "url": "https://joineverlast.com"
-      },
-      {
         "name": "Patriotlink",
-        "grade": 5,
+        "grade": 6,
         "featured": false,
         "art": "flag",
         "type": {
@@ -258,8 +288,8 @@
           "es": "GovTech"
         },
         "description": {
-          "en": "US Veterans platform built with Ruby on Rails. Led the Rails core upgrade from 5.x to 6.1 with zero downtime and implemented high-volume background job processing with Sidekiq.",
-          "es": "Plataforma para veteranos de EE.UU. construida con Ruby on Rails. Lideré la actualización del core de Rails de 5.x a 6.1 sin tiempo de inactividad e implementé procesamiento de trabajos en segundo plano de alto volumen con Sidekiq."
+          "en": "US Veterans platform. Led a zero-downtime core framework upgrade (Rails 5.x → 6.1) and high-volume background job processing.",
+          "es": "Plataforma para veteranos de EE.UU. Lideré una actualización del framework core sin tiempo de inactividad (Rails 5.x → 6.1) y procesamiento de trabajos en segundo plano de alto volumen."
         },
         "technologies": [
           "Ruby on Rails",
@@ -267,14 +297,14 @@
           "PostgreSQL"
         ],
         "impact": {
-          "en": "Zero-downtime Rails upgrade",
-          "es": "Actualización de Rails sin tiempo de inactividad"
+          "en": "Zero-downtime framework upgrade",
+          "es": "Actualización de framework sin tiempo de inactividad"
         },
         "url": "https://patriotlink.org"
       },
       {
         "name": "IBIDS",
-        "grade": 6,
+        "grade": 7,
         "featured": false,
         "art": "bids",
         "type": {
@@ -282,8 +312,8 @@
           "es": "Fintech"
         },
         "description": {
-          "en": "Led the complete migration of a legacy PHP procurement platform to Ruby on Rails for a Dominican Republic client. Designed the new architecture and mentored a junior developer through Rails best practices.",
-          "es": "Lideré la migración completa de una plataforma de adquisiciones legacy en PHP a Ruby on Rails para un cliente de República Dominicana. Diseñé la nueva arquitectura y mentoré a un desarrollador junior en buenas prácticas de Rails."
+          "en": "Led the complete migration of a legacy PHP procurement platform for a Dominican Republic client. Designed the new architecture and mentored a junior developer.",
+          "es": "Lideré la migración completa de una plataforma de adquisiciones legacy en PHP para un cliente de República Dominicana. Diseñé la nueva arquitectura y mentoreé a un desarrollador junior."
         },
         "technologies": [
           "Ruby on Rails",
@@ -291,8 +321,8 @@
           "Legacy Migration"
         ],
         "impact": {
-          "en": "Full PHP-to-Rails modernization",
-          "es": "Modernización completa de PHP a Rails"
+          "en": "Full legacy modernization",
+          "es": "Modernización legacy completa"
         },
         "url": "https://ibids.io"
       }
@@ -306,52 +336,108 @@
     "categories": [
       {
         "title": {
-          "en": "Backend",
-          "es": "Backend"
+          "en": "AI Engineering",
+          "es": "AI Engineering"
         },
         "skills": [
           {
-            "name": "Ruby on Rails",
+            "name": "AI agents & agentic workflows",
             "level": "expert"
           },
           {
-            "name": "Ruby",
+            "name": "Claude Code (skills, subagents, hooks)",
             "level": "expert"
           },
           {
-            "name": "REST APIs",
-            "level": "expert"
-          },
-          {
-            "name": "Python",
+            "name": "MCP (Model Context Protocol)",
             "level": "advanced"
           },
           {
-            "name": "Django / DRF",
+            "name": "LLM integration & tool calling",
             "level": "advanced"
           },
           {
-            "name": "FastAPI",
-            "level": "intermediate"
+            "name": "Prompt & context engineering",
+            "level": "advanced"
+          },
+          {
+            "name": "Multi-agent orchestration",
+            "level": "advanced"
           }
         ]
       },
       {
         "title": {
-          "en": "Data & Infrastructure",
-          "es": "Datos e Infraestructura"
+          "en": "Evals & Quality",
+          "es": "Evals y Calidad"
         },
         "skills": [
           {
-            "name": "PostgreSQL",
-            "level": "expert"
-          },
-          {
-            "name": "Sidekiq / Celery",
+            "name": "Evals (skills vs. baseline)",
             "level": "advanced"
           },
           {
-            "name": "Redis",
+            "name": "Mutation testing (mutmut, Stryker)",
+            "level": "advanced"
+          },
+          {
+            "name": "AI code review agents",
+            "level": "advanced"
+          },
+          {
+            "name": "pytest / RSpec / Vitest",
+            "level": "advanced"
+          },
+          {
+            "name": "E2E & browser automation",
+            "level": "advanced"
+          },
+          {
+            "name": "CI/CD (GitHub Actions)",
+            "level": "advanced"
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Backend & Platforms",
+          "es": "Backend y Plataformas"
+        },
+        "skills": [
+          {
+            "name": "Python (Django, FastAPI)",
+            "level": "advanced"
+          },
+          {
+            "name": "Ruby (Rails)",
+            "level": "expert"
+          },
+          {
+            "name": "TypeScript / React",
+            "level": "intermediate"
+          },
+          {
+            "name": "SDK & CLI design",
+            "level": "advanced"
+          },
+          {
+            "name": "PostgreSQL / Redis / DuckDB",
+            "level": "advanced"
+          },
+          {
+            "name": "Background jobs (Celery, Sidekiq)",
+            "level": "advanced"
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Cloud & Infrastructure",
+          "es": "Cloud e Infraestructura"
+        },
+        "skills": [
+          {
+            "name": "AWS (Lambda, S3, ECR, ECS)",
             "level": "advanced"
           },
           {
@@ -359,68 +445,12 @@
             "level": "advanced"
           },
           {
-            "name": "AWS (Lambda, S3, EC2)",
-            "level": "advanced"
-          },
-          {
-            "name": "Elasticsearch",
+            "name": "Terraform / Terragrunt",
             "level": "intermediate"
-          }
-        ]
-      },
-      {
-        "title": {
-          "en": "Frontend",
-          "es": "Frontend"
-        },
-        "skills": [
-          {
-            "name": "Hotwire (Turbo + Stimulus)",
-            "level": "advanced"
           },
           {
-            "name": "JavaScript",
-            "level": "advanced"
-          },
-          {
-            "name": "HTML5 / CSS3",
-            "level": "advanced"
-          },
-          {
-            "name": "React",
-            "level": "advanced"
-          },
-          {
-            "name": "TypeScript",
+            "name": "Keycloak / SSO",
             "level": "intermediate"
-          }
-        ]
-      },
-      {
-        "title": {
-          "en": "AI & Tooling",
-          "es": "IA y Herramientas"
-        },
-        "skills": [
-          {
-            "name": "OpenAI / Claude APIs",
-            "level": "advanced"
-          },
-          {
-            "name": "AI-Assisted Development",
-            "level": "advanced"
-          },
-          {
-            "name": "SDK & CLI Design",
-            "level": "advanced"
-          },
-          {
-            "name": "CI/CD (GitHub Actions)",
-            "level": "advanced"
-          },
-          {
-            "name": "RSpec / pytest",
-            "level": "advanced"
           },
           {
             "name": "Kamal",
@@ -436,8 +466,8 @@
       "es": "Trabajemos Juntos"
     },
     "description": {
-      "en": "I'm available for full-time remote opportunities and freelance projects. If you're building something with Rails, Django, or AI in the loop, let's talk.",
-      "es": "Estoy disponible para oportunidades remotas de tiempo completo y proyectos freelance. Si estás construyendo algo con Rails, Django o IA en el medio, hablemos."
+      "en": "I'm available for full-time remote opportunities and freelance projects. If you're putting AI agents to real work — tooling, platforms, or the quality gates around them — let's talk.",
+      "es": "Estoy disponible para oportunidades remotas de tiempo completo y proyectos freelance. Si estás poniendo agentes de IA a hacer trabajo real — tooling, plataformas o los controles de calidad a su alrededor — hablemos."
     }
   },
   "navigation": {
