@@ -243,7 +243,7 @@
         <header class="cv-head">
             <div>
                 <h1>Marco Poggi</h1>
-                <p class="headline">Full Stack Developer — Ruby on Rails · Python/Django</p>
+                <p class="headline">AI Engineer — AI Agents · Agentic Workflows · MCP · Evals</p>
             </div>
             <div class="contact">
                 Buenos Aires, Argentina (UTC-3)<br>
@@ -256,49 +256,48 @@
         <section>
             <h2>Summary</h2>
             <p style="color: var(--ink-soft);">
-                Full Stack Developer with <strong style="color: var(--ink);">4+ years of professional experience</strong> building
-                production systems with Ruby on Rails and Python/Django for international clients. Strong backend focus:
-                PostgreSQL, background processing (Sidekiq, Celery), REST APIs, and AWS serverless infrastructure.
-                Daily AI-assisted development workflow (OpenAI and Claude APIs, SDK/CLI tooling). Comfortable in fully
-                remote, international teams. B2 English level.
+                AI Engineer with <strong style="color: var(--ink);">4+ years of professional experience</strong> shipping production software
+                for international clients. I build <strong style="color: var(--ink);">AI agents and agentic workflows, MCP integrations, tool calling, and agent-ready APIs</strong>,
+                plus the <strong style="color: var(--ink);">evals and quality gates</strong> that keep AI-generated code reliable.
+                Python, TypeScript, and Ruby in production on AWS. Fully remote with international teams. B2 English level.
             </p>
         </section>
 
         <section>
             <h2>Experience</h2>
             <div class="job-head">
-                <h3>ITCROWD — Full Stack Developer</h3>
+                <h3>ITCROWD — AI Engineer · Full Stack Developer</h3>
                 <span class="period">Aug 2022 — Present · Remote</span>
             </div>
-            <p class="job-sub">Rails and Django products for clients in the USA and Dominican Republic.</p>
             <ul>
-                <li>Currently building a <strong>geospatial analytics platform</strong>: a Django application that deploys and executes Python analyses as AWS Lambda functions, plus its <strong>Python SDK, CLI, and shared-library monorepo</strong> with per-package CI and automated releases.</li>
-                <li>Built and maintained <strong>Ruby on Rails products</strong> for US clients in health, government, and workflow automation — from greenfield architecture to legacy migrations with zero downtime.</li>
-                <li>Optimized complex <strong>PostgreSQL</strong> queries, designed background job pipelines (<strong>Sidekiq, Celery</strong>), and integrated third-party services and <strong>LLM APIs</strong>.</li>
-                <li>Agile ceremonies, code review, and Git/GitHub daily within remote international teams.</li>
+                <li>Lead developer on a US client's multi-tenant data platform (<strong>StealthMetrix</strong>): serverless <strong>Python on AWS</strong>, an SDK and CLI, and <strong>agent-ready APIs</strong> that AI agents can operate.</li>
+                <li>Built <strong>agentic workflows</strong> for the engineering team: Claude Code skills, subagents, hooks, and <strong>MCP integrations</strong> for tickets, releases, docs, and E2E smoke tests.</li>
+                <li>Set up <strong>evals and quality gates</strong> for AI-generated code: mutation testing, AI code review agents, and skill evals against a baseline model.</li>
+                <li>Earlier: shipped <strong>LLM-powered products</strong> and backend systems for US and LatAm clients in health, government, and fintech.</li>
             </ul>
         </section>
 
         <section>
             <h2>Key Projects</h2>
             <ul class="projects-cv">
-                <li><strong>ShadowLytics (USA):</strong> geospatial analytics platform running Python analyses as AWS Lambda functions — Django, Celery, DuckDB; built the SDK and CLI developers use to write analyses.</li>
-                <li><strong>SequenceStack (USA):</strong> AI-powered workflow automation platform built from scratch on a Rails API architecture.</li>
-                <li><strong>Everlast (USA):</strong> AI-powered health coaching app — Rails, PostgreSQL JSONB, Sidekiq orchestration.</li>
-                <li><strong>Patriotlink (USA):</strong> platform for U.S. veterans — led zero-downtime Rails 5.x → 6.1 upgrade, high-volume Sidekiq processing.</li>
-                <li><strong>IBIDS (Dominican Republic):</strong> led complete PHP → Rails migration of a procurement platform; analytics dashboards; mentored a junior developer.</li>
-                <li><strong>Clavalo (personal):</strong> football predictions platform for the 2026 World Cup — Rails 8.1, Hotwire, deployed with Docker and Kamal.</li>
+                <li><strong>StealthMetrix · ShadowLytics (USA):</strong> agent-operable platform running Python analyses as AWS Lambdas over geospatial data.</li>
+                <li><strong>SequenceStack (USA):</strong> AI-powered workflow automation platform built from scratch, with LLM steps orchestrated inside user-defined workflows.</li>
+                <li><strong>Everlast (USA):</strong> AI health coaching app — LLM-driven coaching over a flexible JSONB data model with background orchestration.</li>
+                <li><strong>Patriotlink (USA):</strong> platform for U.S. veterans — led a zero-downtime framework upgrade (Rails 5.x → 6.1), high-volume job processing.</li>
+                <li><strong>IBIDS (Dominican Republic):</strong> led the complete migration of a legacy PHP procurement platform; mentored a junior developer.</li>
+                <li><strong>Clavalo (personal):</strong> football predictions platform for the 2026 World Cup, built end to end with an AI-first workflow and deployed with Docker and Kamal.</li>
             </ul>
         </section>
 
         <section>
             <h2>Technical Skills</h2>
             <dl class="skills-table">
-                <div class="skills-row"><dt>Languages</dt><dd>Ruby, Python, JavaScript/TypeScript, SQL, HTML5, CSS3</dd></div>
-                <div class="skills-row"><dt>Frameworks</dt><dd>Ruby on Rails, Django / DRF, FastAPI, React, Hotwire (Turbo + Stimulus)</dd></div>
-                <div class="skills-row"><dt>Databases</dt><dd>PostgreSQL, Redis, MySQL, Elasticsearch, DuckDB</dd></div>
-                <div class="skills-row"><dt>Cloud &amp; Tools</dt><dd>Docker, AWS (Lambda, S3, EC2, ECR), GitHub Actions, Git, Kamal</dd></div>
-                <div class="skills-row"><dt>Extras</dt><dd>RSpec, pytest, Sidekiq, Celery, REST APIs, OpenAI / Claude APIs</dd></div>
+                <div class="skills-row"><dt>AI Engineering</dt><dd>AI agents, agentic workflows, multi-agent orchestration, MCP (Model Context Protocol), LLM integration, tool calling, structured outputs, prompt &amp; context engineering, Claude Code (skills, subagents, hooks), Claude / OpenAI APIs</dd></div>
+                <div class="skills-row"><dt>Evals &amp; Quality</dt><dd>Evals, mutation testing (mutmut, Stryker), AI code review agents, pytest, RSpec, Vitest, E2E browser tests, CI/CD (GitHub Actions)</dd></div>
+                <div class="skills-row"><dt>Languages</dt><dd>Python, Ruby, TypeScript/JavaScript, SQL</dd></div>
+                <div class="skills-row"><dt>Frameworks</dt><dd>Django / DRF, FastAPI, Ruby on Rails, React, Hotwire</dd></div>
+                <div class="skills-row"><dt>Data</dt><dd>PostgreSQL, Redis, DuckDB, Elasticsearch, Celery, Sidekiq</dd></div>
+                <div class="skills-row"><dt>Cloud &amp; Infra</dt><dd>AWS (Lambda, S3, ECR, ECS, EC2), Terraform / Terragrunt, Docker, Keycloak, Kamal</dd></div>
             </dl>
         </section>
 
@@ -306,14 +305,14 @@
             <h2>Strengths</h2>
             <div class="two-col">
                 <ul>
-                    <li>Strong backend focus with Rails &amp; PostgreSQL</li>
-                    <li>Django + AWS serverless experience</li>
-                    <li>AI-assisted development without sacrificing quality</li>
+                    <li>Turning team workflows into reusable agent skills</li>
+                    <li>Making platforms safe and useful for AI agents</li>
+                    <li>Proving AI-written code with tests that catch breaks</li>
                 </ul>
                 <ul>
-                    <li>Comfortable with DevOps (Docker, AWS, CI/CD)</li>
-                    <li>Focused on performance, scalability, and clean code</li>
-                    <li>Team player with solid communication skills</li>
+                    <li>Stack-agnostic: picks the right tool for the job</li>
+                    <li>End-to-end ownership: platform, SDK, CLI, infra</li>
+                    <li>Clear communicator in remote, international teams</li>
                 </ul>
             </div>
         </section>

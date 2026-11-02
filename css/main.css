@@ -718,6 +718,23 @@ section {
     transform: scale(1.05);
 }
 
+/* Cover art motion */
+.project-cover .cv-flow { stroke-dasharray: 3 9; animation: cv-flow 1.6s linear infinite; }
+.project-cover .cv-beat { stroke-dasharray: 70 500; animation: cv-beat 3.2s linear infinite; }
+.project-cover .cv-pulse { transform-box: fill-box; transform-origin: center; animation: cv-pulse 2.6s ease-out infinite; }
+.project-cover .cv-float { animation: cv-float 6s ease-in-out infinite; }
+.project-cover .cv-wave { animation: cv-float 7s ease-in-out infinite; }
+.project-cover .cv-blink { animation: cv-blink 1.2s ease-in-out infinite; }
+.project-cover .cv-blink-slow { animation: cv-blink 4s ease-in-out infinite; }
+.project-cover .cv-delay { animation-delay: -1.3s; }
+.project-cover .cv-delay-2 { animation-delay: -0.8s; }
+
+@keyframes cv-flow { to { stroke-dashoffset: -24; } }
+@keyframes cv-beat { from { stroke-dashoffset: 570; } to { stroke-dashoffset: 0; } }
+@keyframes cv-pulse { 0% { transform: scale(1); opacity: .9; } 100% { transform: scale(3); opacity: 0; } }
+@keyframes cv-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+@keyframes cv-blink { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+
 .project-card.featured {
     background: linear-gradient(160deg, var(--accent-subtle) 0%, var(--surface) 50%);
 }
